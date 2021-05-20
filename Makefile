@@ -11,6 +11,6 @@ lint:
 
 test:
 	python -m pytest -vv --cov=hello test_hello.py
-	python -m pytest -vv --cov=hello test_rekognition.py
+	python -m pytest -vv --cov=rekognition test_rekognition.py
 
 all: install lint test
